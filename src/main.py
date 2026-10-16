@@ -1,4 +1,4 @@
-
+import json
 import datetime
 
 
@@ -14,7 +14,8 @@ def create_measurement():
 
     return measurement
 
-
+def create_dump():
+    json.dump()
 def main():
     measurement = create_measurement()
     print(measurement)
@@ -23,3 +24,9 @@ def main():
 if __name__ == "__main__":
     main()
 
+def tps_check():
+
+    return 
+
+def errors():
+    measurement = create_measurement()    
